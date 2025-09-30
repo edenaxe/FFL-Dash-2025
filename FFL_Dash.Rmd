@@ -303,8 +303,7 @@ ig = lapply(1:nrow(mdf),
                    xref = "paper", yref = "y",
                    xanchor = "center", yanchor = "middle",
                    # Will auto adjust the position of the icon to the right spot
-                   # x = ((parse_number(current_wk)+0.34)/(parse_number(current_wk)+1)),
-                   x = ((parse_number(current_wk)+0.26)/(parse_number(current_wk)+1)),
+                   x = ((parse_number(current_wk)+0.28)/(parse_number(current_wk)+1)),
                    y = mdf[i, ]$Position,
                    sizex = 0.5, sizey = 0.5)
             })
