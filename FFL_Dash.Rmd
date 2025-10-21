@@ -69,9 +69,9 @@ FFL_Table <- read_excel("FFL_Data.xlsx", sheet = "2025 Results") %>%
 # Color palette, variables, etc. (set by alphabetical order)
 ffl_pal <- c(
   "#F8422A", "#FDB301", "#89BEAA", 
-  "#3E715E", "#074B45", "#623521",  
-  "#674698", "#327FFF", "#C69C6D",
-  "#7C8D51", "#1a23d4", "#E8CAB8" 
+  "#3E715E", "#E8CAB8", "#074B45", 
+  "#623521", "#327FFF", "#674698",
+  "#C69C6D", "#7C8D51", "#1a23d4" 
 )
 
 current_wk <- paste("Week", max(parse_number(FFL_Table$Week)))
